@@ -11,3 +11,415 @@
 @import "modules/shared/header";
 @import "modules/shared/footer";
 @import "modules/shared/button";
+
+.articles {
+  &__body {
+    max-width: 1157px;
+    margin: 0px auto;
+  }
+
+  &__header {
+  }
+
+  &__title {
+    margin: 0px 0px 150px 0px;
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 -22px;
+  }
+
+  &__column {
+    flex: 0 0 50%;
+    padding: 0 22px;
+  }
+}
+
+.title {
+  color: #363636;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+
+}
+
+.item-about {
+  margin: 0 0 21px 0;
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -100px;
+  }
+
+  &__info {
+    border-radius: 29px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 123px 93px 102px 50px;
+  }
+}
+
+.info {
+  &__title {
+    color: #50626C;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__text {
+    color: #50626C;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.item-about-footer {
+  border-radius: 29px;
+  background: #50626C;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+  padding: 178px 38px 77px 50px;
+  margin: 0 0 50px 0;
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -100px;
+  }
+
+  &__info-f {
+
+  }
+}
+
+.info-f {
+  &__title {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__text {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews {
+  &__body {
+    max-width: 1157px;
+    margin: 0px auto;
+  }
+
+  &__header {
+  }
+
+  &__title {
+    margin: 0px 0px 50px 0px;
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 -16px;
+  }
+
+  &__column {
+    flex: 0 0 33%;
+    padding: 0 16px;
+  }
+}
+
+.title {
+}
+
+.reviews-item-about {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px;
+  }
+
+  &__info {
+    padding: 44px 71px 93px 73px;
+  }
+}
+
+.info-r {
+  &__title {
+    color: #50626C;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 115% */
+  }
+
+  &__text {
+    color: #50626C;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 226.667% */
+  }
+}
+
+.item-about-footer-r {
+  &__row {
+    display: flex;
+    margin: 50px;
+
+  }
+
+  &__column-left {
+    flex: 0 0 50%;
+    padding: 0 70px;
+  }
+}
+
+.item-about-footer-r-column-right {
+  flex: 0 0 50%;
+  padding: 0 16px;
+
+
+  &__img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+  }
+
+  .img-border {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+
+}
+.column-left-info {
+  border: 1px solid #E4E5E4;
+  background: #FFF;
+  width: 440px;
+  height: 454px;
+  flex-shrink: 0;
+
+
+  &__title {
+    color: #606060;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 100% */
+    padding: 46px 159px 21px 160px;
+  }
+
+  &__name {
+    color: #606060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    padding: 0 0 0 23px;
+  }
+
+  &__name-field {
+    border: 1px solid #E4E5E4;
+    width: 394px;
+    height: 66px;
+    flex-shrink: 0;
+    margin: 0 23px 21px 23px;
+
+  }
+
+  &__email {
+    color: #606060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    padding: 0 0 0 23px;
+  }
+
+  &__email-field {
+    border: 1px solid #E4E5E4;
+    width: 394px;
+    height: 66px;
+    flex-shrink: 0;
+    margin: 0 0 34px;
+    margin: 0 23px 21px 23px;
+  }
+
+  &__button {
+    width: 393.647px;
+    height: 65.758px;
+    flex-shrink: 0;
+    background: #50626C;
+    margin: 0 23px 21px 23px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.basement {
+  &__body {
+    max-width: 1157px;
+    margin: 0px auto;
+
+
+
+  }
+
+  &__header {
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 -16px;
+  }
+
+  &__column {
+    flex: 0 0 33%;
+    padding: 0 16px;
+  }
+
+  &__footer {
+    width: 1440px;
+    height: 105px;
+    flex-shrink: 0;
+    background: #001420;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 127.778% */
+
+    display: flex;
+
+  }
+}
+
+.item-about {
+}
+
+.item-about-left {
+  &__icon {
+  }
+
+  &__text {
+  }
+}
+
+.item-about-center {
+  &__title {
+    color: #363636;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px; /* 104.545% */
+    margin: 0 0 27px;
+  }
+
+  &__text {
+    color: #363636;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 36px;
+  }
+}
+
+.item-about-right {
+  &__title {
+    color: #363636;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 0 27px;
+  }
+
+  &__text {
+    color: #363636;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 0 0 18px;
+  }
+}
+
+.up {
+  padding: 20px 0 42px 203px;
+
+}
+
+.company {
+  padding: 20px 0px 42px 900px;
+}
+
+.news {
+  color: #363636;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 115% */
+}
