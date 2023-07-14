@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+
+  font-family: $sf-pro-display-font;
 }
 
 ul {
@@ -10,5 +12,16 @@ ul {
 
 a {
   text-decoration: none;
+
   color: black;
+  font-family: $sf-pro-display-font;
+}
+
+button {
+  font-family: $sf-pro-display-font;
+}
+
+.container {
+  width: $max-width;
+  padding: 0 $side-padding;
 }
