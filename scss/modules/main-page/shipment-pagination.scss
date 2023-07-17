@@ -1,0 +1,30 @@
+.shipment-pagination {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    margin-right: 15px;
+
+    &--backward {
+      margin-right: 25px;
+
+      svg {
+        margin-right: 12px;
+      }
+    }
+
+    &--forward {
+      margin-left: 5px;
+
+      svg {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  &__link {
+    &:hover, &:focus {
+      opacity: 0.5;
+    }
+  }
+}
