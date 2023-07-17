@@ -574,6 +574,8 @@ template {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .shipment-card__link:hover, .shipment-card__link:focus {
+      opacity: 0.5; }
   .shipment-card__name {
     width: 200px;
     margin: 26px 0 0 0;
@@ -595,3 +597,22 @@ template {
         margin-left: 12px; }
   .shipment-pagination__link:hover, .shipment-pagination__link:focus {
     opacity: 0.5; }
+
+.categories {
+  width: 1440px;
+  padding: 0 120px;
+  box-sizing: border-box; }
+  .categories__name {
+    margin-top: 85px;
+    margin-left: 50px;
+    font-size: 40px; }
+  .categories__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;
+    margin-left: 50px;
+    justify-content: space-between; }
+  .categories__item {
+    margin-bottom: 16px; }
+  .categories__image {
+    border-radius: 15px; }
