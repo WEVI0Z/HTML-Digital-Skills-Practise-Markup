@@ -450,3 +450,169 @@ template {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden; }
+
+.header {
+  width: 100%;
+  min-height: 900px;
+  background-image: url("/img/header-background.jpg");
+  background-size: cover;
+  background-position: center; }
+  .header__wrapper {
+    width: 1440px;
+    padding: 0 140px;
+    box-sizing: border-box;
+    margin: auto; }
+  .header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; }
+  .header__options {
+    display: flex;
+    width: 370px;
+    justify-content: space-between; }
+  .header__option--search {
+    display: flex;
+    align-items: center; }
+  .header__menu {
+    background: none;
+    border: none;
+    padding: 0; }
+    .header__menu:hover, .header__menu:focus {
+      cursor: pointer;
+      opacity: 0.5; }
+  .header__search {
+    color: white;
+    line-height: 25px;
+    margin-left: 15px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white; }
+    .header__search:focus {
+      outline: none; }
+    .header__search::placeholder {
+      color: white;
+      opacity: 0.7; }
+  .header__link:hover, .header__link:focus {
+    opacity: 0.7; }
+  .header__promo {
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .header__name {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 140px;
+    font-size: 200px;
+    font-family: "Nordin", sans-serif, monospace;
+    font-weight: 400; }
+  .header__slogan {
+    margin: 0;
+    text-transform: lowercase;
+    font-family: "Montserrat", sans-serif, monospace;
+    font-size: 50px;
+    color: white; }
+  .header__button {
+    display: block;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border: 1px solid white;
+    padding: 25px 40px 25px 28px; }
+    .header__button svg {
+      margin-left: 27px; }
+    .header__button:hover, .header__button:focus {
+      opacity: 0.7; }
+  .header__contacts {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+  .header__contact {
+    margin-right: 20px;
+    width: 130px;
+    color: white; }
+
+.shipments {
+  width: 1440px;
+  padding: 0 145px; }
+  .shipments__options {
+    margin-top: 100px;
+    margin-left: 18px;
+    display: flex;
+    flex-wrap: wrap; }
+  .shipments__option {
+    margin-right: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0.3; }
+    .shipments__option--active {
+      opacity: 1; }
+    .shipments__option:hover, .shipments__option:focus {
+      opacity: 0.7; }
+  .shipments__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-left: 18px;
+    width: 1000px; }
+  .shipments__card {
+    margin-right: 20px;
+    margin-top: 27px; }
+  .shipments__pagination {
+    margin-top: 72px;
+    margin-left: 200px; }
+
+.shipment-card {
+  width: 229px;
+  min-height: 302px; }
+  .shipment-card__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .shipment-card__link:hover, .shipment-card__link:focus {
+      opacity: 0.5; }
+  .shipment-card__name {
+    width: 200px;
+    margin: 26px 0 0 0;
+    text-align: center;
+    font-weight: 400; }
+
+.shipment-pagination {
+  display: flex;
+  align-items: center; }
+  .shipment-pagination__item {
+    margin-right: 15px; }
+    .shipment-pagination__item--backward {
+      margin-right: 25px; }
+      .shipment-pagination__item--backward svg {
+        margin-right: 12px; }
+    .shipment-pagination__item--forward {
+      margin-left: 5px; }
+      .shipment-pagination__item--forward svg {
+        margin-left: 12px; }
+  .shipment-pagination__link:hover, .shipment-pagination__link:focus {
+    opacity: 0.5; }
+
+.categories {
+  width: 1440px;
+  padding: 0 120px;
+  box-sizing: border-box; }
+  .categories__name {
+    margin-top: 85px;
+    margin-left: 50px;
+    font-size: 40px; }
+  .categories__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;
+    margin-left: 50px;
+    justify-content: space-between; }
+  .categories__item {
+    margin-bottom: 16px; }
+  .categories__image {
+    border-radius: 15px; }

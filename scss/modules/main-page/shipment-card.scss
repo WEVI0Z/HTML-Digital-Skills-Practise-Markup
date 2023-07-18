@@ -1,0 +1,22 @@
+.shipment-card {
+  width: 229px;
+  min-height: 302px;
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover, &:focus {
+      opacity: 0.5;
+    }
+  }
+
+  &__name {
+    width: 200px;
+    margin: 26px 0 0 0;
+
+    text-align: center;
+    font-weight: 400;
+  }
+}

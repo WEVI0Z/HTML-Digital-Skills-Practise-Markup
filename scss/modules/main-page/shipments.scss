@@ -1,0 +1,44 @@
+.shipments {
+  width: $max-width;
+  padding: 0 $side-padding;
+
+  &__options {
+    margin-top: 100px;
+    margin-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__option {
+    margin-right: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0.3;
+
+    &--active {
+      opacity: 1;
+    }
+
+    &:hover, &:focus {
+      opacity: 0.7;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-left: 18px;
+    width: 1000px;
+  }
+
+  &__card {
+    margin-right: 20px;
+    margin-top: 27px;
+  }
+
+  &__pagination {
+    margin-top: 72px;
+    margin-left: 200px;
+  }
+}
