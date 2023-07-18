@@ -1,0 +1,132 @@
+.reviews {
+  &__body {
+    max-width: 1157px;
+    margin: 0 auto;
+  }
+  &__title {
+    margin: 0 0 50px 0;
+  }
+  &__row {
+    display: flex;
+    margin: 0 -16px;
+  }
+  &__column {
+    flex: 0 0 33%;
+    padding: 0 16px;
+  }
+}
+
+.reviews-item-about {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px;
+  }
+  &__info {
+    padding: 44px 71px 93px 73px;
+  }
+}
+
+.info-r {
+  color: #50626C;
+  text-align: center;
+  font-family: Gilroy;
+  font-style: normal;
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+  &__text {
+    font-size: 15px;;
+    font-weight: 400;
+    line-height: 34px;
+  }
+}
+
+.item-about-footer-r {
+  &__row {
+    display: flex;
+    margin: 50px;
+  }
+  &__column-left {
+    flex: 0 0 50%;
+    padding: 0 70px;
+  }
+}
+
+.item-about-footer-r-column-right {
+  flex: 0 0 50%;
+  padding: 0 16px;
+  &__img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  .img-border {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
+
+.column-left-info {
+  border: 1px solid #E4E5E4;
+  background: #FFF;
+  width: 440px;
+  height: 454px;
+  flex-shrink: 0;
+  &__title {
+    color: #606060;
+    text-align: center;
+    font-family: $sf-pro-display-font;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 46px 159px 21px 160px;
+  }
+  &__name {
+    color: #606060;
+    font-family: $montserrat-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 0 0 23px;
+  }
+  &__name-field {
+    border: 1px solid #E4E5E4;
+    width: 394px;
+    height: 66px;
+    flex-shrink: 0;
+    margin: 0 23px 21px 23px;
+  }
+  &__email {
+    color: #606060;
+    font-family: $montserrat-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 0 0 23px;
+  }
+  &__email-field {
+    border: 1px solid #E4E5E4;
+    width: 394px;
+    height: 66px;
+    flex-shrink: 0;
+    margin: 0 23px 21px 23px;
+  }
+  &__button {
+    width: 393.647px;
+    height: 65.758px;
+    flex-shrink: 0;
+    background: #50626C;
+    margin: 0 23px 21px 23px;
+  }
+}

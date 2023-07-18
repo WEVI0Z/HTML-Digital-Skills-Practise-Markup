@@ -1,0 +1,79 @@
+.basement {
+  &__body {
+    max-width: 1157px;
+    margin: 0 auto;
+  }
+  &__row {
+    display: flex;
+    margin: 0 -16px;
+  }
+  &__column {
+    flex: 0 0 33%;
+    padding: 0 16px;
+  }
+  &__footer {
+    width: 1440px;
+    height: 105px;
+    flex-shrink: 0;
+    background: #001420;
+    color: #FFF;
+    font-family: $sf-pro-display-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 127.778% */
+    display: flex;
+  }
+}
+
+.item-about-center {
+  font-family: $sf-pro-display-font;
+  color: $text-color;
+  font-style: normal;
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 0 27px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+
+.item-about-right {
+  color: $text-color;
+  font-style: normal;
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 0 27px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 0 0 18px;
+  }
+}
+
+.up {
+  padding: 20px 0 42px 203px;
+}
+
+.company {
+  padding: 20px 0 42px 900px;
+}
+
+.news {
+  color: $text-color;
+  text-align: center;
+  font-family: $sf-pro-display-font;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
