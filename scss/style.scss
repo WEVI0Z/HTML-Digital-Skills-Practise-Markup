@@ -8,3 +8,11 @@
 @import "vendor/visually-hidden";
 
 // Modules
+@import "modules/shared/header";
+@import "modules/shared/footer";
+@import "modules/shared/button";
+
+
+@import "scss/modules/main-page/articles";
+@import "scss/modules/main-page/basement";
+@import "scss/modules/main-page/reviews";
