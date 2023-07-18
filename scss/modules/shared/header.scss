@@ -1,0 +1,133 @@
+.header {
+  width: 100%;
+  min-height: 900px;
+
+  background-image: url("/img/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+
+  &__wrapper {
+    width: $max-width;
+    padding: 0 140px;
+
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  &__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  &__options {
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+  }
+
+  &__option {
+    &--search {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__menu {
+    background: none;
+    border: none;
+    padding: 0;
+    
+    &:hover, &:focus {
+      cursor: pointer;
+      opacity: 0.5;
+    }
+  }
+
+  &__search {
+    color: white;
+    line-height: 25px;
+    margin-left: 15px;
+
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: white;
+      opacity: 0.7;
+    }
+  }
+
+  &__link {
+    &:hover, &:focus {
+      opacity: 0.7;
+    }
+  }
+
+  &__promo {
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__name {
+    color: white;
+    margin: 0;
+
+    text-transform: uppercase;
+    line-height: 140px;
+    font-size: 200px;
+    font-family: $nordin-font;
+    font-weight: 400;
+  }
+
+  &__slogan {
+    margin: 0;
+
+    text-transform: lowercase;
+    font-family: $montserrat-font;
+    font-size: 50px;
+    color: white;
+  }
+
+  &__button {
+    display: block;
+    margin-top: 40px;
+
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+    border: 1px solid white;
+    padding: 25px 40px 25px 28px;
+
+    svg {
+      margin-left: 27px;
+    }
+
+    &:hover, &:focus {
+      opacity: 0.7;
+    }
+  }
+
+  &__contacts {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__contact {
+    margin-right: 20px;
+    width: 130px;
+    color: white;
+  }
+}

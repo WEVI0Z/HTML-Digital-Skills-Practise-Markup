@@ -1,0 +1,28 @@
+.categories {
+  width: $max-width;
+  padding: 0 120px;
+  box-sizing: border-box;
+
+  &__name {
+    margin-top: 85px;
+    margin-left: 50px;
+
+    font-size: 40px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;
+    margin-left: 50px;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin-bottom: 16px;
+  }
+
+  &__image {
+    border-radius: 15px;
+  }
+}
